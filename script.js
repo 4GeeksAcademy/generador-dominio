@@ -2,6 +2,7 @@ let pronoun = ["The", "Amazing" , "Great"];
 let adj = ["Magnate" , "Lord-Commander"];
 let noun = ["Tomato" , "Romi" , "Neo" , "Larry"];
 
+
 let domainNames = [];
 
 for (let i = 0; i < pronoun.length; i++) {
@@ -13,4 +14,4 @@ for (let i = 0; i < pronoun.length; i++) {
   }
 }
 
-console.log(domainNames);
+console.log(domainNames.join('\n'));
